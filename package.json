@@ -16,7 +16,8 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    "proccess"
+    "time",
+    "helper"
   ],
   "author": "Dmitrii Osipovich",
   "license": "ISC",
