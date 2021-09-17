@@ -1,4 +1,5 @@
-// import { Greeter } from '../index';
-// test('My Greeter', () => {
-//   expect(Greeter('Carl')).toBe('Hello Carl');
-// });
+import { diffDates } from '../index';
+
+test('DiffDates', () => {
+  expect(diffDates(new Date(), new Date(), 'minutes')).toStrictEqual({ isLess: true, minutes: 0 });
+});
