@@ -1,4 +1,4 @@
-import moment from 'moment';
+import * as moment from 'moment'
 
 export async function sleep(ms: number) {
   return new Promise((resolve) =>
